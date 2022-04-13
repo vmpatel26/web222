@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Vaibhavkumar Patel</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+</head>
+
+<body>
+
+    <!-- Main start -->
+    <div class="main">
+        <div class="lm-animated-bg"></div>
+        <div class="wrapper">
+            <div class="main-div">
+                <!-- User profile start -->
+                <section class="user-detail">
+                    <div class="user-img">
+                        <img src="image/user.png" alt="">
+                    </div>
+                    <div class="user-info">
+                        <span>Hello I'm</span>
+                        <h1>Vaibhav Patel</h1>
+                        <div class="home-btn">
+                            <a href="files/vaibhav_resume.pdf" class="blue-btn" download>Download CV</a>
+                            <a href="#contactme" class="white-btn scrollTo">Contact Me</a>
+                        </div>
+                    </div>
+                </section>
+                <!-- About user start -->
+                <section class="about-user-detail">
+                    <div class="main-title">
+                        <h2>About Me</h2>
+                    </div>
+                    <div class="user-desc">
+                        <p>I am Vaibhavkumar Patel. I am studying CPP(Computer programming). I am very interested in
+                            learning web developing. I want to make my career in developer field. </p>
+                    </div>
+                    <div class="user-quality">
+                        <table style="width:100%">
+                            <tr>
+                                <td>Age:</td>
+                                <td>22</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td>vaibhavp1112@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td>Language:</td>
+                                <td>English, Hindi, Gujarati</td>
+                            </tr>
+                            <tr>
+                                <td>Class Section:</td>
+                                <td>NCC</td>
+                            </tr>
+                            <tr>
+                                <td>Student ID:</td>
+                                <td>139768204</td>
+                            </tr>
+                            <tr>
+                                <td>Instructor:</td>
+                                <td>Mark Meritt</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                </section>
+                <!-- Honesty Statement -->
+                <section>
+                    <div>
+                        <span class="h_statment">Honesty Statment</span>
+                        <ul class="honesty_ul">
+
+                            <li>I have not received, I have not given, nor will I give or receive,
+                                any assistance to another student taking this exam, including
+                                discussing the exam with students in another section of the course. </li>
+                            <li> I will not plagiarize someone else’s work and turn it in as my own. </li>
+                        </ul>
+                    </div>
+
+                </section>
+                <!-- User Education start -->
+                <section class="user-edutcation">
+                    <div class="main-title">
+                        <h2>My Education</h2>
+                    </div>
+                    <div class="course-box">
+                        <div class="school-name">
+                            <span>2015-2016</span>
+                            <h5>Secondary education</h5>
+                        </div>
+                        <div class="school-desc">
+                            <p>
+                                I have completed my secondary education from Global international school in my home
+                                country, India. I passed secondary education with colourful grades and also got award in
+                                annual function.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="course-box">
+                        <div class="school-name">
+                            <span>2016-2019</span>
+                            <h5>Diploma study</h5>
+                        </div>
+                        <div class="school-desc">
+                            <p>
+                                I have completed my diploma studies in Computer engineering in one of the reknown
+                                colleges of my hometown. I cleared diploma with 9.87 CGPA and also I received award in
+                                annual function of college by president of college.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+                <!-- Contact form start -->
+                <section class="contact-me" id="contactme">
+                    <div class="main-title">
+                        <h2>Contact Me</h2>
+                    </div>
+                    <div class="contact-form">
+                        <form action="https://httpbin.org/post" method="POST" name="vaibhav" onsubmit="validateForm()">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Enter your name*" required>
+                                
+                            </div>
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Enter Email-ID*">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="address" placeholder="Enter address*">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" list="cites" id="city" name="city" placeholder="Enter city*">
+                                <datalist id="cites">
+                                    <option value="North York"></option>
+                                    <option value="Richmond hill"></option>
+                                    <option value="Montreal"></option>
+                                    <option value="Brampton"></option>
+                                    <option value="Kitchner"></option>
+                                </datalist>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="pcode" id="pcode" placeholder="Enter postal code*">
+                            </div>
+                            <div class="form-group">
+                                <input type="radio" id="test1" name="radio-group">
+                                <label for="test1">Hiring</label>
+                                <input type="radio" id="test2" name="radio-group" checked>
+                                <label for="test2">Comment</label>
+                                <input type="radio" id="test3" name="radio-group">
+                                <label for="test3">Question</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="number" name="hrate" placeholder="Enter Hourly Rate">
+                            </div>
+                            <div class="form-group txt-bx">
+                                <textarea name="comment" name="comment" id="" cols="30" rows="10"
+                                    placeholder="Enter your comments*"></textarea>
+                            </div>
+                            <button type="submit" id="submit" class="blue-btn submit-btn">SUBMIT <i
+                                    class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                        </form>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

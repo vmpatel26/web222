@@ -1,0 +1,458 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+* {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #007ced;
+}
+
+.lm-animated-bg {
+    position: fixed;
+    width: auto;
+    height: auto;
+    top: -18px;
+    left: -18px;
+    right: -18px;
+    bottom: -18px;
+    background-image: url(../image/main_bg_14.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.main-div {
+    float: left;
+    width: 100%;
+    padding: 20px 50px;
+    margin: 20px 0;
+    border-radius: 20px;
+    background-color: #222222;
+}
+
+.user-detail {
+    float: left;
+    width: 100%;
+}
+
+.user-img {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.user-info {
+    float: left;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+    text-align: left;
+}
+
+.user-info span {
+    float: left;
+    text-align: left;
+    margin-left: 0;
+    font-size: 20px;
+    color: #939393;
+}
+
+.user-info h1 {
+    font-size: 55px;
+    margin-left: 0;
+    color: #fff;
+    font-weight: 600;
+    line-height: 56px;
+    margin-top: 10px;
+}
+
+.home-btn {
+    margin: 20px 0;
+    width: 100%;
+    display: inline-block
+}
+
+.blue-btn {
+    color: #fff;
+    background-color: #333;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+    display: inline-block;
+    position: relative;
+    padding: 0.8em 2.1em;
+    margin-bottom: 0.75em;
+    margin-right: 0.25em;
+    font-size: 14px;
+    line-height: 1.2;
+    border: 2px solid #007ced;
+    border-radius: 30px;
+    transition: 0.4s;
+}
+
+.blue-btn:hover {
+    transition: 0.4s;
+    background-color: #007ced;
+}
+
+.white-btn {
+    border-color: #007ced;
+    color: #fff;
+    background-color: #333;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+    display: inline-block;
+    position: relative;
+    padding: 0.8em 2.1em;
+    margin-bottom: 0.75em;
+    margin-right: 0.25em;
+    font-size: 14px;
+    line-height: 1.2;
+    border: 2px solid #fff;
+    border-radius: 30px;
+}
+
+.white-btn:hover {
+    transition: 0.4s;
+    color: #000;
+    background-color: #fff;
+}
+
+.about-user-detail {
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+}
+
+.main-title {
+    float: left;
+    width: 100%;
+}
+
+.main-title h2 {
+    display: inline-block;
+    position: relative;
+    font-size: 21px;
+    margin: 0 0 30px;
+    z-index: 1;
+    padding-bottom: 7px;
+    color: #f5f5f5;
+}
+
+.main-title h2:before {
+    background-color: #353535;
+    display: block;
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+}
+
+.main-title h2:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 30px;
+    background-color: #007ced;
+    height: 2px;
+    bottom: 0;
+}
+
+.user-desc {
+    float: left;
+    width: 60%;
+}
+
+.user-desc p {
+    font-weight: 200;
+    line-height: 25px;
+    color: #f5f5f5;
+}
+
+.user-quality {
+    float: left;
+    width: 40%;
+    padding-left: 40px;
+}
+
+.user-quality table {
+    color: #fff;
+}
+
+.user-quality table tr {
+    line-height: 30px;
+}
+
+.user-quality table tr td {
+    font-weight: 200;
+}
+
+.user-quality table tr td:nth-child(2) {
+    text-align: right;
+}
+
+.user-edutcation {
+    padding: 30px 0;
+    float: left;
+    width: 100%;
+}
+
+.course-box {
+    float: left;
+    width: 48%;
+    margin-right: 20px;
+    border: 2px solid #444444;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.user-edutcation .course-box:nth-child(3) {
+    margin-right: 0;
+}
+
+.school-name {
+    background-color: #007ced;
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    border-top-right-radius: 10px;
+}
+
+.school-name span {
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+
+.school-name h5 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.school-desc {
+    float: left;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.school-desc p {
+    color: #cccccc;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 300;
+}
+
+.contact-me {
+    float: left;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.form-group {
+    float: left;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.form-group input,
+.form-group select {
+    width: 95%;
+    height: 40px;
+    padding: 10px;
+    background-color: #161616;
+    outline: none;
+    border: none;
+    color: #f5f5f5;
+    border-bottom: 2px solid #353535;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+[type="radio"]:checked+label,
+[type="radio"]:not(:checked)+label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #fff;
+    margin-right: 20px;
+}
+
+[type="radio"]:checked+label:before,
+[type="radio"]:not(:checked)+label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #353535;
+}
+
+[type="radio"]:checked+label:after,
+[type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #007ced;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+[type="radio"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[type="radio"]:checked+label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.txt-bx {
+    float: left;
+    width: 100%;
+}
+
+.txt-bx textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #161616;
+    outline: none;
+    border: none;
+    color: #f5f5f5;
+    border-bottom: 2px solid #353535;
+}
+
+.submit-btn {
+    float: none;
+    display: table;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.h_statment {
+    margin-top: 1rem;
+    color: #f5f5f5;
+}
+
+.honesty_ul {
+    color: #cccccc;
+}
+
+@media only screen and (max-width:991px) {
+    .user-img {
+        width: 100%;
+    }
+    .user-info {
+        width: 100%;
+        height: auto;
+    }
+    .user-info span,
+    .user-info h1 {
+        margin-left: auto;
+    }
+    .home-btn {
+        margin: 20px auto;
+        width: auto;
+        display: inline-block;
+    }
+    .user-desc {
+        float: left;
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .user-info h1 {
+        font-size: 45px;
+    }
+    .user-desc {
+        float: left;
+        width: 100%;
+    }
+    .user-quality {
+        float: left;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+    [type="radio"]:checked+label,
+    [type="radio"]:not(:checked)+label {
+        margin-right: 15px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .user-img img {
+        width: 60%;
+    }
+    .user-info h1 {
+        font-size: 35px;
+        margin-top: 0;
+    }
+    .course-box {
+        float: left;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .school-name h5 {
+        font-size: 18px;
+    }
+    .form-group {
+        float: left;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .main-div {
+        padding: 50px 20px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    .white-btn,
+    .blue-btn {
+        padding: 0.8em 1.8em;
+    }
+    .user-desc p {
+        line-height: 22px;
+        font-size: 13px;
+    }
+    .user-quality table tr td {
+        font-size: 13px;
+    }
+    .user-quality table tr {
+        line-height: 28px;
+    }
+}
